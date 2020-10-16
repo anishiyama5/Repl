@@ -1,19 +1,20 @@
 --- ============================ HEADER ============================
 --- ======= LOCALIZE =======
 -- Addon
-local addonName, addonTable = ...
+local addonName, addonTable = ...; --add term colons here and below
 -- HeroLib
-local HL = HeroLib
-local Cache = HeroCache
-local Unit = HL.Unit
-local Player = Unit.Player
-local Target = Unit.Target
-local Spell = HL.Spell
-local Item = HL.Item
+local HL = HeroLib;
+local Cache = HeroCache;
+local Unit = HL.Unit;
+local Player = Unit.Player;
+local Target = Unit.Target;
+local Spell = HL.Spell;
+local Item = HL.Item;
 -- Lua
-local pairs = pairs
-local select = select
+local pairs = pairs;
+local select = select;
 -- File Locals
+
 
 
 --- ============================ CONTENT ============================
